@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NurtrientJSONTest</string>
+    <string name="food_search">Enter food name here...</string>
+</resources>
