@@ -38,6 +38,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * Allows a user to search for a specific food item using JSON objects retrieved from a web service.
+ * Connects using URLConnection to the webservice, using a URL to request specific information.
+ * The webservice returns a JSON object which is then parsed, this parsed data is then put into
+ * a view for the user to see. Each food item is selectable and will create a new activity,
+ * NutrientActivity, to show the nutrient of that food item.
  * @author Sean Sexton
  */
 public class MainActivity extends AppCompatActivity {

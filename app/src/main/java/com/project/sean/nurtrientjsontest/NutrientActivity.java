@@ -250,9 +250,9 @@ public class NutrientActivity extends AppCompatActivity {
             //otherwise it is CYAN
             //.setBackGroundColor(Color.parseColor(#fffff));
             if ((position % 2) == 0) {
-                convertView.setBackgroundColor(Color.BLUE);
+                convertView.setBackgroundColor(Color.WHITE);
             } else {
-                convertView.setBackgroundColor(Color.CYAN);
+                convertView.setBackgroundColor(Color.LTGRAY);
             }
 
             return convertView;
