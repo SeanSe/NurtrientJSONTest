@@ -37,6 +37,9 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author Sean Sexton
+ */
 public class MainActivity extends AppCompatActivity {
 
     //private TextView tvData;
